@@ -130,7 +130,8 @@ header.masthead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icons .social-icon:hover, 
+.cv-social-icons .cv-social-icon:hover{
   background-color: #ef4565;
 }
 
@@ -153,10 +154,10 @@ header.masthead {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #3da9fc;
+  color: #094067;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: #5f6c7b;
+  color: #ef4565;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -165,7 +166,7 @@ header.masthead {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #5f6c7b;
+  color: #ef4565;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -188,13 +189,13 @@ header.masthead {
 
 .btn-primary {
   color: #f8f9fa;
-  background-color: #3da9fc;
+  background-color: #90b4ce ;
   border-color:#094067;
 }
 
 .btn-primary:hover {
-  color: #f8f9fa;
-  background-color: #5f6c7b;
+  color: #ef4565;
+  background-color: #90b4ce ;
   border-color:#094067;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -361,7 +362,6 @@ header.masthead {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #eadfc9;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -610,6 +610,11 @@ header.masthead {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+}
+.subsubheading {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform:capitalize;
 }
 @media (min-width: 1200px) {
   .timeline > li {
