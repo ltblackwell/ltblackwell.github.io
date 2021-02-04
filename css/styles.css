@@ -80,13 +80,15 @@ header.masthead {
   font-weight: 400;
   font-size: 1.2rem;
 }
-
+.resume-section-content .subheading {
+  text-transform: initial;
+}
 .cv-titles {
   margin-bottom: 0.5rem;
   font-family: 'Fraunces', sans-serif;
   font-weight: 450;
   line-height: 1.2;
-  color: #343a40;
+  color: #094067;
 }
 
 .font-italic {
