@@ -45,8 +45,8 @@ header.masthead {
   color: #5f6c7b;
 }
 @media (max-width: 576px) {
-  .modal-body h2 {
-    font-size: 1.65rem;
+  .portfolio-modal .modal-content h2 {
+    font-size: 1.65rem!important;
   }
   .masthead-full-name {
     font-family: 'Fraunces', sans-serif;
